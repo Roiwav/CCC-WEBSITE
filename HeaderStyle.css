@@ -4,7 +4,7 @@
     justify-content: space-between; /* Space out the left and right elements */
     align-items: center; /* Center items vertically */
     background: linear-gradient(90deg, #1a1a1a, #333333); /* Gradient background for modern look */
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -62,7 +62,7 @@ body {
     padding: 12px 18px;
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -78,7 +78,7 @@ body {
 .nav-links a.active {
     color: #fff;
     background-color: #1aadd5; /* Set active background color to #1aadd5 */
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(26, 173, 213, 0.6); /* Highlight active link with glow */
 }
 
@@ -95,7 +95,7 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
@@ -121,11 +121,12 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
+    text-align: center;
     background-color: #444; /* Darker dropdown background */
     min-width: 180px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow for dropdown */
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 20px;
     overflow: hidden; /* Rounded corners for dropdown */
     animation: fadeIn 0.3s ease; /* Smooth dropdown appearance */
 }
@@ -145,9 +146,42 @@ body {
     color: white; /* Ensure text stays readable */
     transform: scale(1.05); /* Slightly enlarge hovered item */
 }
+.dropdown-content-about {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #444; /* Darker dropdown background */
+    min-width: 140px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow for dropdown */
+    z-index: 1;
+    border-radius: 20px;
+    overflow: hidden; /* Rounded corners for dropdown */
+    animation: fadeIn 0.3s ease; /* Smooth dropdown appearance */
+}
+
+/* Dropdown links inside the menu */
+.dropdown-content-about a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on dropdown links */
+.dropdown-content-about a:hover {
+    background-color: #1aadd5; /* Highlight background on hover */
+    color: white; /* Ensure text stays readable */
+    transform: scale(1.05); /* Slightly enlarge hovered item */
+}
+
 
 /* Show the dropdown content when hovering over the Academics link */
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Show the dropdown content when hovering over the Academics link */
+.dropdown:hover .dropdown-content-about {
     display: block;
 }
 

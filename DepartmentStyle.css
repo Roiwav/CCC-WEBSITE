@@ -4,6 +4,7 @@
     overflow: hidden; /* Hide content that overflows the container */
     width: 100%; /* Full width of the container */
     justify-content: center; /* Align slides to the center */
+   
 }
 .mySlides {
     flex: 0 0 auto; /* Prevents slides from growing or shrinking */
@@ -19,7 +20,7 @@
     backdrop-filter: blur(4px); /* Optional: Apply blur effect to the background */
     text-align: center;
     line-height: 1.8; /* Adjust line height for better readability */
-    margin-top: 80px; /* Ensure it starts after the fixed navbar */
+    margin-top: 180px; /* Ensure it starts after the fixed navbar */
    
 }
 .departments-clickable-image img {

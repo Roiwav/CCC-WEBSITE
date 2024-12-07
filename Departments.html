@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deparments_CCC</title>
-      <!-- First stylesheet for Header -->
-      <link rel="stylesheet" href="HeaderStyle.css">
+    <title>Departments_CCC</title>
     
-      <!-- Second stylesheet for Body -->
-      <link rel="stylesheet" href="DepartmentStyle.css">
-        <!-- Third stylesheet for Body -->
-        <link rel="stylesheet" href="Body.css">
-          <!-- 4th stylesheet for Footer -->
-          <link rel="stylesheet" href="FooterStyle.css">
-
-    <link rel="icon" type="image/x-icon" href="./img/ccclogo.png"> <!--CCC favicon-->
+    <!-- First stylesheet for Header -->
+    <link rel="stylesheet" href="HeaderStyle.css">
     
+    <!-- Second stylesheet for Department -->
+    <link rel="stylesheet" href="DepartmentStyle.css">
+    
+    <!-- Third stylesheet for Body -->
+    <link rel="stylesheet" href="Body.css">
+    
+    <!-- 4th stylesheet for Footer -->
+    <link rel="stylesheet" href="FooterStyle.css">
+    
+    <!-- Link for external script -->
+    <script src="script.js"></script>
+    
+    <!-- CCC favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/ccclogo.png">
 </head>
+
 <body>
-      <!-- Background image container -->
-      <div class="background"></div>
+    <!-- Background image container -->
+    <div class="background"></div>
+    
     <header>
         <!-- Top navigation bar -->
         <div class="topnav">
-            
             <!-- Logo and name section -->
             <div class="logo-and-name">
                 <!-- City College of Calamba logo -->
-                <a href="https://www.facebook.com/citycollegeofcalamba" alt="CCC Official FB page">
+                <a href="https://www.facebook.com/citycollegeofcalamba" alt="CCC Official FB page" target="_blank" rel="noopener noreferrer">
                     <img src="./img/ccclogo.png" width="100" alt="CCC Logo">
-                    </a>
-                <!-- College name -->
+                </a>
                 <h1>City College of Calamba</h1>
             </div>
             
             <!-- Navigation links -->
             <div class="nav-links">
-                
                 <!-- Home link -->
                 <a href="Index.html" alt="Home">
                     <img src="icons/Home.png" width="30">&nbsp;Home
@@ -45,15 +51,12 @@
                 <!-- Dropdown menu for Academics -->
                 <div class="dropdown">
                     <div class="dropdown-link">
-                        <!-- Academics link with an arrow indicator -->
-                        <img src="./icons/Academics.png" width="30">Academics 
+                        <img src="./icons/Academics.png" width="30">Academics
                         <span class="arrow">&#9660;</span>
                     </div>
                     <!-- Dropdown content -->
                     <div class="dropdown-content">
-                       <!-- College Officials link -->
-                       <a href="CollegeOffcials.html" alt="Officials">College Officials</a>
-                        <!-- Departments link (active page is highlighted) -->
+                        <a href="CollegeOffcials.html" alt="Officials">College Officials</a>
                         <a class="active" href="Departments.html" alt="Departments">Departments</a>
                     </div>
                 </div>
@@ -73,18 +76,15 @@
                     <img src="./icons/News.png" width="30">&nbsp;News
                 </a>
                 
-                 <!-- Dropdown menu for About -->
-                 <div class="dropdown">
+                <!-- Dropdown menu for About -->
+                <div class="dropdown">
                     <div class="dropdown-link">
-                        <!-- About link with an arrow indicator -->
                         <img src="./icons/About.png" width="30">About
                         <span class="arrow">&#9660;</span>
                     </div>
                     <!-- Dropdown content -->
                     <div class="dropdown-content-about">
-                        <!-- About Us link -->
                         <a href="AboutUs.html" alt="About Us">About Us</a>
-                        <!-- About CCC link -->
                         <a href="AboutCCC.html" alt="About CCC">About CCC</a>
                     </div>
                 </div>
@@ -92,11 +92,11 @@
         </div>
     </header>
     
-
     <div class="departments-clickable-image">
         <div class="Departments-header-title">
-        <h1>COLLEGE DEPARTMENTS</h1>
+            <h1>COLLEGE DEPARTMENTS</h1>
         </div>
+        
         <div class="slideshow-container">
             <!-- Slide 1 -->
             <div class="mySlides">
@@ -104,8 +104,8 @@
                     <img src="./img/DAS.jpg" alt="DAS Image">
                 </a>
                 <div class="Departments-name">
-                <h3>Department of Art and Science</h3>
-            </div>
+                    <h3>Department of Art and Science</h3>
+                </div>
             </div>
     
             <!-- Slide 2 -->
@@ -139,46 +139,45 @@
             </div>
         </div>
     </div>
+    
     <div class="Departments">
         <div class="Departments-description">
-        <p>
-            The City College of Calamba (CCC) is dedicated
-            to providing accessible,high-quality education that empowers students
-            and enhances our community.  With focused departments in
-            Arts and Sciences, Business and Accountancy,
-            Computing and Informatics, and Teacher Education, 
-            CCC offers a well-rounded academic experience aimed at
-            equipping students with the necessary skills, knowledge,
-            and real-world experience for success  in their selected careers.
-            Our college cultivates a nurturing and dynamic atmosphere
-            that promotes lifelong learning, creativity, and service to the community.
-        </p>
+            <p>
+                The City College of Calamba (CCC) is dedicated to providing accessible, high-quality education that empowers students
+                and enhances our community. With focused departments in Arts and Sciences, Business and Accountancy,
+                Computing and Informatics, and Teacher Education, CCC offers a well-rounded academic experience aimed at
+                equipping students with the necessary skills, knowledge, and real-world experience for success in their selected careers.
+                Our college cultivates a nurturing and dynamic atmosphere that promotes lifelong learning, creativity, and service to the community.
+            </p>
         </div>
     </div>
-    <footer>
+    
+     <!-- Footer Section -->
+     <footer>
         <div class="footer">
-          <div class="Logo-Grey">
-            <a href="https://www.facebook.com/citycollegeofcalamba" alt="CCC Official FB page">
-              <img src="./img/ccclogogrey.png" alt="CCC Logo" >
-            </a>
-          </div>
-          <div class="footer-text">
-            <h2>Connect with CCC</h2>
-            <p>
-              <em>
-                Old Municipal Site, Burgos St, Brgy.<br>
-                VII, Poblacion, Calamba City, Laguna, Philippines<br><br>
-                (049) 559 8900<br>
-                (02) 8 539 5170<br><br>
-                <strong>Email:</strong> 
-                <a href="mailto:info@ccc.edu.ph">info@ccc.edu.ph</a><br>
-                <strong>Education Verification:</strong> 
-                <a href="mailto:ccc_regs_office@yahoo.com">ccc_regs_office@yahoo.com</a>
-              </em>
-            </p>
-          </div>
+            <div class="Logo-Grey">
+                <a href="https://www.facebook.com/citycollegeofcalamba" alt="CCC Official FB page" arget="_blank" rel="noopener noreferrer">
+                    <img src="./img/ccclogogrey.png" alt="CCC Logo">
+                </a>
+            </div>
+            <div class="footer-text">
+                <h2>Connect with CCC</h2>
+                <p>
+                    <em>
+                        Old Municipal Site, Burgos St, Brgy.<br>
+                        VII, Poblacion, Calamba City, Laguna, Philippines<br><br>
+                        (049) 559 8900<br>
+                        (02) 8 539 5170<br><br>
+                        <strong>Email:</strong>
+                        <a href="mailto:info@ccc.edu.ph" target="_blank" rel="noopener noreferrer">info@ccc.edu.ph</a><br>
+                        <strong>Education Verification:</strong>
+                        <a href="mailto:ccc_regs_office@yahoo.com" target="_blank" rel="noopener noreferrer">ccc_regs_office@yahoo.com</a>
+                    </em>
+                </p>
+            </div>
         </div>
-      </footer>
-      
+    </footer>
+    
 </body>
+
 </html>

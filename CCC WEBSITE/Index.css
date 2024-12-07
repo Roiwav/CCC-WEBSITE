@@ -1,0 +1,13 @@
+.Index-Vid-Container{
+    background-color:  rgba(44, 44, 44, 0.5);
+padding: 30px; /* Add some space inside the container */
+border-radius: 50px; /* Optional: Rounds the corners of the container */
+margin: 20px auto; /* Center the container horizontally */
+font-family: Arial, sans-serif; /* Optional: Define the font style */
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for floating effect */
+backdrop-filter: blur(4px); /* Optional: Apply blur effect to the background */
+text-align: center;
+line-height: 1.8; /* Adjust line height for better readability */
+margin-top: 180px; /* Ensure it starts after the fixed navbar */
+margin-bottom: 180px;
+}

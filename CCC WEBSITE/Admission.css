@@ -1,0 +1,33 @@
+/* Admission Container */
+.Admission{
+    background-color:  rgba(44, 44, 44, 0.5);
+    padding: 30px auto; /* Add some space inside the container */
+    border-radius: 30px; /* Optional: Rounds the corners of the container */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for floating effect */
+    backdrop-filter: blur(4px); /* Optional: Apply blur effect to the background */
+    max-width: 2000px; /* Restrict the width for better readability */
+    line-height: 1.8; /* Adjust line height for better readability */
+    margin-top: 180px; /* Ensure it starts after the fixed navbar */
+    margin-bottom: 80px;
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+.Admission-Header-Title{
+    text-align: center;
+    color: #fff;
+    text-shadow: -4px -5px 0 #000, 1px 1px 0 #ccc; /* Creates a 3D embossed look */
+    font-size: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* General styles */
+.Admission {
+    text-align: center;
+    padding: 20px;
+}
+
+.Admission h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+footer {
+    background-color: #9a9a9a; /* Light gray background */
+    padding: 20px 40px;
+  }
+  
+  .footer {
+    display: flex; /* Enables horizontal alignment */
+    align-items: center; /* Aligns logo and text vertically in the center */
+    max-width: 1200px; /* Optional: Limit the width of the footer */
+    margin: 0 auto; /* Centers the footer content */
+    height: 300px;
+  }
+  
+  .Logo-Grey {
+    margin-right: 30px; /* Adds space between the logo and the text */
+  }
+  
+  .Logo-Grey img {
+    width: 300px; /* Adjust logo size */
+    height: auto;
+  }
+  
+  .footer-text {
+    flex: 1; /* Ensures the text container adjusts to the available space */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-text h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .footer-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .footer-text a {
+    color: #007BFF; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
